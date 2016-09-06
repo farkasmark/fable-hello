@@ -1,0 +1,25 @@
+{
+  "name": "fable-hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "fable"
+  },
+  "author": "Mark Farkas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "fable-core": "^0.5.5",
+    "finalhandler": "^0.5.0",
+    "serve-static": "^1.11.1"
+  },
+  "engines": {
+    "fable": "^0.5.11"
+  },
+  "devDependencies": {
+    "fable-compiler": "^0.5.11",
+    "fable-import-express": "0.0.11"
+  }
+}
